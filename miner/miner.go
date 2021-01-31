@@ -57,6 +57,7 @@ type Config struct {
 type Miner struct {
 	mux      *event.TypeMux
 	worker   *worker
+	runner   *runner
 	coinbase common.Address
 	eth      Backend
 	engine   consensus.Engine
@@ -73,6 +74,7 @@ func New(eth Backend, config *Config, chainConfig *params.ChainConfig, mux *even
 		engine:   engine,
 		exitCh:   make(chan struct{}),
 		worker:   newWorker(config, chainConfig, engine, eth, mux, isLocalBlock, false),
+		runner:   newRunner(config, chainConfig, engine, eth, mux, isLocalBlock, true),
 		canStart: 1,
 	}
 	go miner.update()
@@ -128,15 +130,19 @@ func (miner *Miner) Start(coinbase common.Address) {
 		return
 	}
 	miner.worker.start()
+	miner.runner.start()
+
 }
 
 func (miner *Miner) Stop() {
 	miner.worker.stop()
+	miner.runner.stop()
 	atomic.StoreInt32(&miner.shouldStart, 0)
 }
 
 func (miner *Miner) Close() {
 	miner.worker.close()
+	miner.runner.close()
 	close(miner.exitCh)
 }
 
@@ -199,10 +205,15 @@ func (miner *Miner) PendingBlock() *types.Block {
 func (miner *Miner) SetEtherbase(addr common.Address) {
 	miner.coinbase = addr
 	miner.worker.setEtherbase(addr)
+	miner.runner.setEtherbase(addr)
 }
 
 // SubscribePendingLogs starts delivering logs from pending transactions
 // to the given channel.
 func (self *Miner) SubscribePendingLogs(ch chan<- []*types.Log) event.Subscription {
 	return self.worker.pendingLogsFeed.Subscribe(ch)
+}
+
+func (miner *Miner) SubscribePendingLogRuns(ch chan<- []*types.LogRun) event.Subscription {
+	return miner.runner.pendingLogRunsFeed.Subscribe(ch)
 }

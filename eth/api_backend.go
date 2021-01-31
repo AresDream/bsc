@@ -204,6 +204,10 @@ func (b *EthAPIBackend) SubscribePendingLogsEvent(ch chan<- []*types.Log) event.
 	return b.eth.miner.SubscribePendingLogs(ch)
 }
 
+func (b *EthAPIBackend) SubscribePendingLogRunsEvent(ch chan<- []*types.LogRun) event.Subscription {
+	return b.eth.miner.SubscribePendingLogRuns(ch)
+}
+
 func (b *EthAPIBackend) SubscribeChainEvent(ch chan<- core.ChainEvent) event.Subscription {
 	return b.eth.BlockChain().SubscribeChainEvent(ch)
 }

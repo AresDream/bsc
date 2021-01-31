@@ -24,12 +24,12 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/consensus"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/internal/ethapi"
+	"github.com/AresDream/bsc/params"
 	lru "github.com/hashicorp/golang-lru"
 )
 

@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/common/hexutil"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/rlp"
+	"github.com/AresDream/bsc/trie"
 )
 
 // DumpAccount represents an account in the state.

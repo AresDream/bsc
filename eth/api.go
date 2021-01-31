@@ -28,16 +28,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/common/hexutil"
+	"github.com/AresDream/bsc/core"
+	"github.com/AresDream/bsc/core/rawdb"
+	"github.com/AresDream/bsc/core/state"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/internal/ethapi"
+	"github.com/AresDream/bsc/rlp"
+	"github.com/AresDream/bsc/rpc"
+	"github.com/AresDream/bsc/trie"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum full node-related

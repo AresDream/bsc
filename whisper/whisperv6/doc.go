@@ -35,7 +35,7 @@ package whisperv6
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/AresDream/bsc/crypto"
 )
 
 // Whisper protocol parameters

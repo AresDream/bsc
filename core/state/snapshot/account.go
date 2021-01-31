@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/rlp"
 )
 
 // Account is a slim version of a state.Account, where the root and code hash

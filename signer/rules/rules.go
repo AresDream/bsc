@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
+	"github.com/AresDream/bsc/internal/ethapi"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/signer/core"
+	"github.com/AresDream/bsc/signer/rules/deps"
+	"github.com/AresDream/bsc/signer/storage"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/rules/deps"
-	"github.com/ethereum/go-ethereum/signer/storage"
 )
 
 var (

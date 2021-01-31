@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core/rawdb"
+	"github.com/AresDream/bsc/core/state"
+	"github.com/AresDream/bsc/core/vm"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

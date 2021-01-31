@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/common/hexutil"
+	"github.com/AresDream/bsc/core/types"
 )
 
 type ValidationInfo struct {

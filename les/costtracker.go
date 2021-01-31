@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/AresDream/bsc/common/mclock"
+	"github.com/AresDream/bsc/eth"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/les/flowcontrol"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

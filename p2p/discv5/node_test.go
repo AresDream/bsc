@@ -27,8 +27,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/crypto"
 )
 
 func ExampleNewNode() {

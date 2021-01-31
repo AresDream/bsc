@@ -27,16 +27,16 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core"
+	"github.com/AresDream/bsc/core/rawdb"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/internal/debug"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/node"
+	"github.com/AresDream/bsc/rlp"
 )
 
 const (

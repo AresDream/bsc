@@ -19,12 +19,12 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/consensus"
+	"github.com/AresDream/bsc/core/state"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/core/vm"
+	"github.com/AresDream/bsc/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/AresDream/bsc/consensus"
+	"github.com/AresDream/bsc/core/state"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

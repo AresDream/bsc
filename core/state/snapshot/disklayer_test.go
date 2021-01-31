@@ -22,12 +22,12 @@ import (
 	"os"
 	"testing"
 
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core/rawdb"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/ethdb/leveldb"
+	"github.com/AresDream/bsc/ethdb/memorydb"
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

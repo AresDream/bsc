@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/crypto"
 )
 
 // Genesis hashes to enforce below configs on.
@@ -497,7 +497,6 @@ func (c *ChainConfig) IsMirrorSync(num *big.Int) bool {
 func (c *ChainConfig) IsOnMirrorSync(num *big.Int) bool {
 	return configNumEqual(c.MirrorSyncBlock, num)
 }
-
 
 // IsMuirGlacier returns whether num is either equal to the Muir Glacier (EIP-2384) fork block or greater.
 func (c *ChainConfig) IsMuirGlacier(num *big.Int) bool {

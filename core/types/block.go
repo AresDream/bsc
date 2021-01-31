@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/common/hexutil"
+	"github.com/AresDream/bsc/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

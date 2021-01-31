@@ -31,11 +31,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/crypto/ecies"
+	"github.com/AresDream/bsc/p2p/simulations/pipes"
+	"github.com/AresDream/bsc/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/p2p/simulations/pipes"
-	"github.com/ethereum/go-ethereum/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

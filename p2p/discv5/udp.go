@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/p2p/netutil"
+	"github.com/AresDream/bsc/rlp"
 )
 
 const Version = 4

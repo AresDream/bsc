@@ -19,10 +19,10 @@ package clique
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/consensus"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

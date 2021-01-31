@@ -21,9 +21,9 @@ import (
 	"hash"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/common/math"
+	"github.com/AresDream/bsc/log"
 )
 
 // Config are the configuration options for the Interpreter

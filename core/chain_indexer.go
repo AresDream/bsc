@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core/rawdb"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/event"
+	"github.com/AresDream/bsc/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

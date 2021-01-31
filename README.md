@@ -54,7 +54,7 @@ BNB will be used to:
 
 Many of the below are the same as or similar to go-ethereum.
 
-For prerequisites and detailed build instructions please read the [Installation Instructions](https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum) on the wiki.
+For prerequisites and detailed build instructions please read the [Installation Instructions](https://github.com/AresDream/bsc/wiki/Building-Ethereum) on the wiki.
 
 Building `geth` requires both a Go (version 1.13 or later) and a C compiler. You can install
 them using your favourite package manager. Once the dependencies are installed, run
@@ -76,13 +76,13 @@ directory.
 
 |    Command    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | :-----------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  **`geth`**   | Main Binance Smart Chain client binary. It is the entry point into the BSC network (main-, test- or private net), capable of running as a full node (default), archive node (retaining all historical state) or a light node (retrieving data live). It has the same and more RPC and other interface as go-ethereum and can be used by other processes as a gateway into the BSC network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `geth --help` and the [CLI Wiki page](https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options) for command line options.          |
+|  **`geth`**   | Main Binance Smart Chain client binary. It is the entry point into the BSC network (main-, test- or private net), capable of running as a full node (default), archive node (retaining all historical state) or a light node (retrieving data live). It has the same and more RPC and other interface as go-ethereum and can be used by other processes as a gateway into the BSC network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `geth --help` and the [CLI Wiki page](https://github.com/AresDream/bsc/wiki/Command-Line-Options) for command line options.          |
 |   `abigen`,`bootnode`,`evm`, `gethrpctest`,`rlpdump`,`puppeth`     | **These binaries are exactly the same as the binaries built in go-ethereum repo.**|
 
 ## Running `geth`
 
 Going through all the possible command line flags is out of scope here (please consult our
-[CLI Wiki page](https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options)).
+[CLI Wiki page](https://github.com/AresDream/bsc/wiki/Command-Line-Options)).
 
 ### Hardware Requirements
 
@@ -117,7 +117,7 @@ accounts available between them.*
 As a developer, sooner rather than later you'll want to start interacting with `geth` and the
 Binance Smart Chain network via your own programs and not manually through the console. To aid
 this, `geth` has built-in support for a JSON-RPC based APIs ([standard APIs](https://github.com/ethereum/wiki/wiki/JSON-RPC)
-and [`geth` specific APIs](https://github.com/ethereum/go-ethereum/wiki/Management-APIs)).
+and [`geth` specific APIs](https://github.com/AresDream/bsc/wiki/Management-APIs)).
 These can be exposed via HTTP, WebSockets and IPC (UNIX sockets on UNIX based
 platforms, and named pipes on Windows).
 

@@ -19,10 +19,10 @@ package core
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/common/mclock"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/log"
 )
 
 // insertStats tracks and reports on block insertion.

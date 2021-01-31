@@ -28,12 +28,12 @@ import (
 	"testing"
 	"testing/quick"
 
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/ethdb/leveldb"
+	"github.com/AresDream/bsc/ethdb/memorydb"
+	"github.com/AresDream/bsc/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 func init() {

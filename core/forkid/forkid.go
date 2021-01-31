@@ -26,10 +26,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/params"
 )
 
 var (

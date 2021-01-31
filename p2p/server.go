@@ -29,17 +29,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/common/mclock"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/event"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/p2p/discover"
+	"github.com/AresDream/bsc/p2p/discv5"
+	"github.com/AresDream/bsc/p2p/enode"
+	"github.com/AresDream/bsc/p2p/enr"
+	"github.com/AresDream/bsc/p2p/nat"
+	"github.com/AresDream/bsc/p2p/netutil"
 )
 
 const (

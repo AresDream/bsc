@@ -22,14 +22,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/common/mclock"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/eth/downloader"
+	"github.com/AresDream/bsc/light"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/p2p"
+	"github.com/AresDream/bsc/params"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

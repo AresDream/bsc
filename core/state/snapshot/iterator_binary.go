@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/AresDream/bsc/common"
 )
 
 // binaryAccountIterator is a simplistic iterator to step over the accounts in

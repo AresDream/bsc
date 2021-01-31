@@ -22,12 +22,12 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/AresDream/bsc/accounts"
+	"github.com/AresDream/bsc/accounts/external"
+	"github.com/AresDream/bsc/accounts/keystore"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/crypto"
 )
 
 // NewTransactor is a utility method to easily create a transaction signer from

@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/AresDream/bsc/event"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/node"
+	"github.com/AresDream/bsc/p2p"
+	"github.com/AresDream/bsc/p2p/enode"
+	"github.com/AresDream/bsc/p2p/simulations/adapters"
+	"github.com/AresDream/bsc/rpc"
 	"github.com/mattn/go-colorable"
 )
 

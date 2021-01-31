@@ -22,15 +22,15 @@ import (
 	"math/big"
 	"time"
 
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/common/math"
+	"github.com/AresDream/bsc/core/rawdb"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/rlp"
+	"github.com/AresDream/bsc/trie"
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
 )
 
 var (

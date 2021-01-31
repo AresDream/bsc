@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/p2p"
+	"github.com/AresDream/bsc/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

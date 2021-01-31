@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/fetcher"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/common/mclock"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/eth/fetcher"
 )
 
 var (

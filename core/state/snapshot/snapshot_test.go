@@ -22,10 +22,10 @@ import (
 	"math/rand"
 	"testing"
 
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core/rawdb"
+	"github.com/AresDream/bsc/rlp"
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // randomHash generates a random blob of data and returns it as a hash.

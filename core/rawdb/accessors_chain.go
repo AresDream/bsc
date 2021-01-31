@@ -21,13 +21,13 @@ import (
 	"encoding/binary"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/params"
+	"github.com/AresDream/bsc/rlp"
 )
 
 // ReadCanonicalHash retrieves the hash assigned to a canonical block number.

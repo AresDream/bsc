@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/AresDream/bsc"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core/rawdb"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/event"
+	"github.com/AresDream/bsc/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.

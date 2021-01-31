@@ -27,14 +27,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/AresDream/bsc/accounts"
+	"github.com/AresDream/bsc/core/rawdb"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/event"
+	"github.com/AresDream/bsc/internal/debug"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/p2p"
+	"github.com/AresDream/bsc/rpc"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

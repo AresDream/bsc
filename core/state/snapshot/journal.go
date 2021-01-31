@@ -24,13 +24,13 @@ import (
 	"io"
 	"time"
 
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core/rawdb"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/rlp"
+	"github.com/AresDream/bsc/trie"
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
 )
 
 // journalGenerator is a disk layer entry containing the generator progress marker.

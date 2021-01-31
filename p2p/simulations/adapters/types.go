@@ -25,14 +25,14 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/node"
+	"github.com/AresDream/bsc/p2p"
+	"github.com/AresDream/bsc/p2p/enode"
+	"github.com/AresDream/bsc/p2p/enr"
+	"github.com/AresDream/bsc/rpc"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/gorilla/websocket"
 )
 

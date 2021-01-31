@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/AresDream/bsc/common/hexutil"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/p2p"
+	"github.com/AresDream/bsc/p2p/enode"
+	"github.com/AresDream/bsc/rpc"
 )
 
 // PrivateAdminAPI is the collection of administrative API methods exposed only

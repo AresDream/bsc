@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/AresDream/bsc/accounts/abi"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/crypto"
 )
 
 func TestMakeTopics(t *testing.T) {

@@ -26,17 +26,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/AresDream/bsc/accounts"
+	"github.com/AresDream/bsc/accounts/external"
+	"github.com/AresDream/bsc/accounts/keystore"
+	"github.com/AresDream/bsc/accounts/scwallet"
+	"github.com/AresDream/bsc/accounts/usbwallet"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/p2p"
+	"github.com/AresDream/bsc/p2p/enode"
+	"github.com/AresDream/bsc/rpc"
 )
 
 const (

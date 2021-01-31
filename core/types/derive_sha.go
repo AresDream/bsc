@@ -19,9 +19,9 @@ package types
 import (
 	"bytes"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/rlp"
+	"github.com/AresDream/bsc/trie"
 )
 
 type DerivableList interface {

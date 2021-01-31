@@ -19,11 +19,11 @@ package rawdb
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/params"
+	"github.com/AresDream/bsc/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core/state"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/trie"
 )
 
 func NewState(ctx context.Context, head *types.Header, odr OdrBackend) *state.StateDB {

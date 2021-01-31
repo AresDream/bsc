@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/AresDream/bsc/common/mclock"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/les/utils"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/p2p/enode"
+	"github.com/AresDream/bsc/rlp"
 )
 
 const (

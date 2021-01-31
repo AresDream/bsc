@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/ethdb/memorydb"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/rlp"
+	"github.com/AresDream/bsc/trie"
 )
 
 // conversionAccount is used for converting between full and slim format. When

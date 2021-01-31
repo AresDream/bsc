@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/core/forkid"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/p2p"
+	"github.com/AresDream/bsc/rlp"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 var (

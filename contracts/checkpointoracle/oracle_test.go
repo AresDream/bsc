@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/checkpointoracle/contract"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/AresDream/bsc/accounts/abi/bind"
+	"github.com/AresDream/bsc/accounts/abi/bind/backends"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/contracts/checkpointoracle/contract"
+	"github.com/AresDream/bsc/core"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/params"
 )
 
 var (

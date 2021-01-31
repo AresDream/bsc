@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/log"
 )
 
 // ReadSnapshotRoot retrieves the root of the block whose state is contained in

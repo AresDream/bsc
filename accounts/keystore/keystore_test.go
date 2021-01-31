@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/AresDream/bsc/accounts"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/event"
 )
 
 var testSigData = make([]byte, 32)

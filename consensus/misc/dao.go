@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/AresDream/bsc/core/state"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/params"
 )
 
 var (

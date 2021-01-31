@@ -32,36 +32,36 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/fdlimit"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/clique"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/graphql"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/metrics/influxdb"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	whisper "github.com/ethereum/go-ethereum/whisper/whisperv6"
+	"github.com/AresDream/bsc/accounts"
+	"github.com/AresDream/bsc/accounts/keystore"
+	"github.com/AresDream/bsc/common"
+	"github.com/AresDream/bsc/common/fdlimit"
+	"github.com/AresDream/bsc/consensus"
+	"github.com/AresDream/bsc/consensus/clique"
+	"github.com/AresDream/bsc/consensus/ethash"
+	"github.com/AresDream/bsc/core"
+	"github.com/AresDream/bsc/core/vm"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/eth"
+	"github.com/AresDream/bsc/eth/downloader"
+	"github.com/AresDream/bsc/eth/gasprice"
+	"github.com/AresDream/bsc/ethdb"
+	"github.com/AresDream/bsc/ethstats"
+	"github.com/AresDream/bsc/graphql"
+	"github.com/AresDream/bsc/les"
+	"github.com/AresDream/bsc/log"
+	"github.com/AresDream/bsc/metrics"
+	"github.com/AresDream/bsc/metrics/influxdb"
+	"github.com/AresDream/bsc/miner"
+	"github.com/AresDream/bsc/node"
+	"github.com/AresDream/bsc/p2p"
+	"github.com/AresDream/bsc/p2p/discv5"
+	"github.com/AresDream/bsc/p2p/enode"
+	"github.com/AresDream/bsc/p2p/nat"
+	"github.com/AresDream/bsc/p2p/netutil"
+	"github.com/AresDream/bsc/params"
+	"github.com/AresDream/bsc/rpc"
+	whisper "github.com/AresDream/bsc/whisper/whisperv6"
 	pcsclite "github.com/gballet/go-libpcsclite"
 	cli "gopkg.in/urfave/cli.v1"
 )
@@ -787,13 +787,13 @@ var (
 		Value: "",
 	}
 
-	InitNetworkIps= cli.StringFlag{
+	InitNetworkIps = cli.StringFlag{
 		Name:  "init.ips",
 		Usage: "the ips of each node in the network, example '192.168.0.1,192.168.0.2'",
 		Value: "",
 	}
 
-	InitNetworkPort= cli.IntFlag{
+	InitNetworkPort = cli.IntFlag{
 		Name:  "init.p2p-port",
 		Usage: "the p2p port of the nodes in the network",
 		Value: 30311,

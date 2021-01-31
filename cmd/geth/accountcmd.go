@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/AresDream/bsc/accounts"
+	"github.com/AresDream/bsc/accounts/keystore"
+	"github.com/AresDream/bsc/cmd/utils"
+	"github.com/AresDream/bsc/console"
+	"github.com/AresDream/bsc/crypto"
+	"github.com/AresDream/bsc/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

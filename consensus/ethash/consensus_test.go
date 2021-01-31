@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/AresDream/bsc/common/math"
+	"github.com/AresDream/bsc/core/types"
+	"github.com/AresDream/bsc/params"
 )
 
 type diffTest struct {

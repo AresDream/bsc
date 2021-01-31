@@ -3,7 +3,6 @@ package parlia
 import (
 	"bytes"
 	"context"
-	"encoding/hex"
 	"errors"
 	"fmt"
 	"io"
@@ -15,10 +14,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/AresDream/bsc"
 	lru "github.com/hashicorp/golang-lru"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/AresDream/bsc"
 	"github.com/AresDream/bsc/accounts"
 	"github.com/AresDream/bsc/accounts/abi"
 	"github.com/AresDream/bsc/common"
@@ -652,10 +651,10 @@ func (p *Parlia) Finalize(chain consensus.ChainReader, header *types.Header, sta
 	if err != nil {
 		panic(err)
 	}
-	nextForkHash := forkid.NextForkHash(p.chainConfig, p.genesisHash, number)
-	if !snap.isMajorityFork(hex.EncodeToString(nextForkHash[:])) {
-		log.Warn("there is a possible fork, and your client is not the majority. Please check...", "nextForkHash", hex.EncodeToString(nextForkHash[:]))
-	}
+	//nextForkHash := forkid.NextForkHash(p.chainConfig, p.genesisHash, number)
+	//if !snap.isMajorityFork(hex.EncodeToString(nextForkHash[:])) {
+	//	log.Warn("there is a possible fork, and your client is not the majority. Please check...", "nextForkHash", hex.EncodeToString(nextForkHash[:]))
+	//}
 	// If the block is a epoch end block, verify the validator list
 	// The verification can only be done when the state is ready, it can't be done in VerifyHeader.
 	if header.Number.Uint64()%p.config.Epoch == 0 {

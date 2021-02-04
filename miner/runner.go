@@ -223,7 +223,6 @@ func (r *runner) mainLoop() {
 
 				txs := make(map[common.Address]types.Transactions)
 				for _, tx := range ev.Txs {
-					log.Info("[Runner] tx:", tx.Hash().Hex())
 					acc, _ := types.Sender(r.current.signer, tx)
 					txs[acc] = append(txs[acc], tx)
 				}
